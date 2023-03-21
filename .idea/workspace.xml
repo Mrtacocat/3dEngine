@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4ee1b182-d144-4fc4-a005-cca24de590c1" name="Changes" comment="Made a 3d rendered box">
+    <list default="true" id="4ee1b182-d144-4fc4-a005-cca24de590c1" name="Changes" comment="Implemented KeyCodes for rotating">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/_3dengine/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/_3dengine/HelloApplication.java" afterDir="false" />
     </list>
@@ -53,7 +53,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1679396191592</updated>
-      <workItem from="1679396192865" duration="7577000" />
+      <workItem from="1679396192865" duration="9481000" />
     </task>
     <task id="LOCAL−00001" summary="Made a 3d rendered box">
       <created>1679411747317</created>
@@ -61,7 +61,31 @@
       <option name="presentableId" value="LOCAL−00001" />
       <updated>1679411747317</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL−00002" summary="Made a 3d rendered box">
+      <created>1679421287648</created>
+      <option name="number" value="LOCAL−00002" />
+      <option name="presentableId" value="LOCAL−00002" />
+      <updated>1679421287648</updated>
+    </task>
+    <task id="LOCAL−00003" summary="Made a box that can be viewed in different angles">
+      <created>1679422022368</created>
+      <option name="number" value="LOCAL−00003" />
+      <option name="presentableId" value="LOCAL−00003" />
+      <updated>1679422022368</updated>
+    </task>
+    <task id="LOCAL−00004" summary="Added SmartGroup for rotate X, Y axis">
+      <created>1679422639999</created>
+      <option name="number" value="LOCAL−00004" />
+      <option name="presentableId" value="LOCAL−00004" />
+      <updated>1679422639999</updated>
+    </task>
+    <task id="LOCAL−00005" summary="Implemented KeyCodes for rotating">
+      <created>1679422664195</created>
+      <option name="number" value="LOCAL−00005" />
+      <option name="presentableId" value="LOCAL−00005" />
+      <updated>1679422664195</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -80,6 +104,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Made a 3d rendered box" />
-    <option name="LAST_COMMIT_MESSAGE" value="Made a 3d rendered box" />
+    <MESSAGE value="Made a box that can be viewed in different angles" />
+    <MESSAGE value="Added SmartGroup for rotate X, Y axis" />
+    <MESSAGE value="Implemented KeyCodes for rotating" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented KeyCodes for rotating" />
   </component>
 </project>
