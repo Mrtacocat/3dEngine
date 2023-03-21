@@ -32,10 +32,6 @@ public class HelloApplication extends Application {
 
         lightGroup.getChildren().add(light);
 
-
-
-
-
         // Box
         Box testBox = new Box(5, 5, 5);
         testBox.setMaterial(new PhongMaterial(Color.RED));
@@ -49,16 +45,16 @@ public class HelloApplication extends Application {
                 new Translate(0, 0, -15));
 
         // Create Material
-        PhongMaterial material = new PhongMaterial();
+       /* PhongMaterial material = new PhongMaterial();
         Image diffuseMap = new Image("img/diffuseMap.jpg");
         Image normalMap = new Image("img/Wood_027_normal.jpg");
 
         // Set Material properties
         material.setDiffuseMap(diffuseMap);
         material.setBumpMap(normalMap);
-        material.setSpecularColor(Color.WHITE);
+        material.setSpecularColor(Color.WHITE);*/
 
-        testBox.setMaterial(material);
+       // testBox.setMaterial(material);
 
         // Build the Scene Graph
         Group root = new Group();
@@ -80,8 +76,8 @@ public class HelloApplication extends Application {
         Scene scene = new Scene(createContent());
         stage.setScene(scene);
         stage.show();
+    }
 
-}
 
 
 
