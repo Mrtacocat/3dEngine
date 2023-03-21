@@ -5,6 +5,8 @@ import javafx.geometry.Point3D;
 import javafx.scene.*;
 import javafx.scene.input.KeyEvent;
 import javafx.scene.paint.Color;
+import javafx.scene.paint.Material;
+import javafx.scene.paint.PhongMaterial;
 import javafx.scene.transform.Rotate;
 import javafx.scene.transform.Transform;
 import javafx.stage.Stage;
@@ -20,6 +22,9 @@ public class HelloApplication extends Application {
 
         Box box = new Box(100, 100, 100);
 
+        Material material = new PhongMaterial(Color.PURPLE);
+        box.setMaterial(material);
+
         SmartGroup group = new SmartGroup();
         group.getChildren().add(box);
 
@@ -28,9 +33,10 @@ public class HelloApplication extends Application {
         scene.setFill(Color.SILVER);
         scene.setCamera(camera);
 
+        // Positions the box in the middle of the scene
         group.translateXProperty().set(WIDTH / 2d);
         group.translateYProperty().set(HEIGHT / 2d);
-        group.translateZProperty().set(-1200);
+        group.translateZProperty().set(-800);
 
         stage.addEventHandler(KeyEvent.KEY_PRESSED, event -> {
             switch (event.getCode()) {
