@@ -28,9 +28,9 @@ public class HelloApplication extends Application {
         scene.setFill(Color.SILVER);
         scene.setCamera(camera);
 
-        box.translateXProperty().set(WIDTH / 2d);
-        box.translateYProperty().set(HEIGHT / 2d);
-        box.translateZProperty().set(-1200);
+        group.translateXProperty().set(WIDTH / 2d);
+        group.translateYProperty().set(HEIGHT / 2d);
+        group.translateZProperty().set(-1200);
 
         stage.addEventHandler(KeyEvent.KEY_PRESSED, event -> {
             switch (event.getCode()) {
