@@ -3,20 +3,12 @@ package com.example._3dengine;
 import javafx.application.Application;
 import javafx.geometry.Point3D;
 import javafx.scene.*;
-import javafx.scene.image.Image;
 import javafx.scene.input.KeyEvent;
-import javafx.scene.layout.Pane;
 import javafx.scene.paint.Color;
-import javafx.scene.paint.Material;
-import javafx.scene.paint.PhongMaterial;
 import javafx.scene.transform.Rotate;
 import javafx.scene.transform.Transform;
-import javafx.scene.transform.Translate;
 import javafx.stage.Stage;
 import javafx.scene.shape.*;
-import javafx.scene.shape.Shape3D;
-
-import java.io.IOException;
 
 public class HelloApplication extends Application {
 
@@ -28,7 +20,7 @@ public class HelloApplication extends Application {
 
         Box box = new Box(100, 100, 100);
 
-        Group group = new Group();
+        SmartGroup group = new SmartGroup();
         group.getChildren().add(box);
 
         Camera camera = new PerspectiveCamera();
@@ -40,16 +32,25 @@ public class HelloApplication extends Application {
         box.translateYProperty().set(HEIGHT / 2d);
         box.translateZProperty().set(-1200);
 
-        Transform transform = new Rotate(65, new Point3D(1, 0, 0));
-        box.getTransforms().add(transform);
-
         stage.addEventHandler(KeyEvent.KEY_PRESSED, event -> {
             switch (event.getCode()) {
                 case W:
-                    box.translateZProperty().set(box.getTranslateZ() + 100);
+                    group.translateZProperty().set(group.getTranslateZ() + 100);
                     break;
                 case S:
-                    box.translateZProperty().set(box.getTranslateZ() - 100);
+                    group.translateZProperty().set(group.getTranslateZ() - 100);
+                    break;
+                case Q:
+                    group.rotateByX(10);
+                    break;
+                case E:
+                    group.rotateByX(-10);
+                    break;
+                case Z:
+                    group.rotateByY(10);
+                    break;
+                case C:
+                    group.rotateByY(-10);
                     break;
             }
         });
