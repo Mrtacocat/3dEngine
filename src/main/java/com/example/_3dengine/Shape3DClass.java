@@ -5,6 +5,7 @@ import javafx.scene.paint.Color;
 import javafx.scene.paint.Material;
 import javafx.scene.paint.PhongMaterial;
 import javafx.scene.shape.Box;
+import javafx.scene.shape.Sphere;
 
 import java.util.Objects;
 
@@ -12,14 +13,22 @@ public class Shape3DClass extends PhongMaterial {
 
     PhongMaterial material;
     Box box;
+    Sphere sphere;
 
     public Shape3DClass() {
         box = prepereBox();
+        sphere = prepereSphere();
+
     }
 
     public Box getBox() {
         return box;
     }
+
+    public Sphere getSphere() {
+        return sphere;
+    }
+
     private Material changeMaterial() {
         material = new PhongMaterial();
         try {
@@ -47,6 +56,12 @@ public class Shape3DClass extends PhongMaterial {
         Box box = new Box(200, 200, 200);
         box.setMaterial(changeMaterial());
         return box;
+    }
+
+    private Sphere prepereSphere() {
+        Sphere sphere = new Sphere(100);
+        sphere.setMaterial(changeMaterial());
+        return sphere;
     }
 
     // create method for changing material

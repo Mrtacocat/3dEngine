@@ -25,9 +25,11 @@ public class GUI extends Application {
     public void start(Stage stage) throws Exception {
 
         Shape3DClass box = new Shape3DClass();
+        Shape3DClass sphere = new Shape3DClass();
 
         Group group = new Group();
-        group.getChildren().add(box.getBox());
+        //group.getChildren().add(box.getBox());
+        group.getChildren().add(sphere.getSphere());
 
         Camera camera = new PerspectiveCamera();
         Scene scene = new Scene(group, WIDTH, HEIGHT);
