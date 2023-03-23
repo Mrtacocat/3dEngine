@@ -7,4 +7,5 @@
 - A: move left
 - D: move right
 
-<img width="1052" alt="image" src="https://user-images.githubusercontent.com/33607859/227162374-0fb98c13-bfcc-4017-933d-a7b49945f276.png">
+<img width="1052" alt="image" src="https://user-images.githubusercontent.com/33607859/227162523-22609432-c8d6-4b06-b126-5e12900f0827.png">
+
