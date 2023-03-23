@@ -67,30 +67,6 @@ public class HelloApplication extends Application {
                 case CONTROL -> group.setTranslateY(group.getTranslateY() - 20);
             }
         });
-
-        /*stage.addEventHandler(KeyEvent.KEY_PRESSED, event -> {
-            switch (event.getCode()) {
-                case W:
-                    group.translateZProperty().set(group.getTranslateZ() + 100);
-                    break;
-                case S:
-                    group.translateZProperty().set(group.getTranslateZ() - 100);
-                    break;
-                case Q:
-                    group.rotateByX(10);
-                    break;
-                case E:
-                    group.rotateByX(-10);
-                    break;
-                case Z:
-                    group.rotateByY(10);
-                    break;
-                case C:
-                    group.rotateByY(-10);
-                    break;
-            }
-        });*/
-
         stage.setResizable(false);
         stage.setTitle("3D Engine");
         stage.setScene(scene);
