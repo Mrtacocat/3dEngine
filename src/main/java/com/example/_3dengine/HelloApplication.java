@@ -1,16 +1,15 @@
 package com.example._3dengine;
 
 import javafx.application.Application;
-import javafx.geometry.Point3D;
 import javafx.scene.*;
+import javafx.scene.image.Image;
 import javafx.scene.input.KeyEvent;
 import javafx.scene.paint.Color;
-import javafx.scene.paint.Material;
 import javafx.scene.paint.PhongMaterial;
-import javafx.scene.transform.Rotate;
-import javafx.scene.transform.Transform;
 import javafx.stage.Stage;
 import javafx.scene.shape.*;
+
+import java.util.Objects;
 
 public class HelloApplication extends Application {
 
@@ -20,13 +19,10 @@ public class HelloApplication extends Application {
     @Override
     public void start(Stage stage) throws Exception {
 
-        Box box = new Box(100, 100, 100);
-
-        Material material = new PhongMaterial(Color.PURPLE);
-        box.setMaterial(material);
+        Shape3DClass box = new Shape3DClass();
 
         SmartGroup group = new SmartGroup();
-        group.getChildren().add(box);
+        group.getChildren().add(box.getBox());
 
         Camera camera = new PerspectiveCamera();
         Scene scene = new Scene(group, WIDTH, HEIGHT);
@@ -66,6 +62,7 @@ public class HelloApplication extends Application {
         stage.setScene(scene);
         stage.show();
     }
+
 
     public static void main(String[] args) {
         launch();
