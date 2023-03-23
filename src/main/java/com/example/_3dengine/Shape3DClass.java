@@ -9,7 +9,7 @@ import javafx.scene.shape.Sphere;
 
 import java.util.Objects;
 
-public class Shape3DClass extends PhongMaterial {
+public class Shape3DClass {
 
     PhongMaterial material;
     Box box;
