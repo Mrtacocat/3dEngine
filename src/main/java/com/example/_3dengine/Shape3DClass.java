@@ -15,14 +15,12 @@ public class Shape3DClass extends PhongMaterial {
 
     public Shape3DClass() {
         box = prepereBox();
-
     }
 
     public Box getBox() {
         return box;
     }
-
-    private Box prepereBox() {
+    private Material changeMaterial() {
         material = new PhongMaterial();
         try {
             material.setDiffuseMap(new Image(Objects.requireNonNull(getClass().getResourceAsStream("/img/diffuseMap.jpg"))));
@@ -42,10 +40,19 @@ public class Shape3DClass extends PhongMaterial {
                 material.setSpecularColor(Color.GREEN);
             }
         }
+        return material;
+    }
 
+    private Box prepereBox() {
         Box box = new Box(200, 200, 200);
-        box.setMaterial(material);
+        box.setMaterial(changeMaterial());
         return box;
     }
+
+    // create method for changing material
+
+
+
+
 
 }
