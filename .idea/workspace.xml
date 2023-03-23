@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4ee1b182-d144-4fc4-a005-cca24de590c1" name="Changes" comment="Colored material">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/_3dengine/Shape3DClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/illumination.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/specularMap.jpg" afterDir="false" />
+    <list default="true" id="4ee1b182-d144-4fc4-a005-cca24de590c1" name="Changes" comment="added camera movement">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/_3dengine/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/_3dengine/HelloApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/_3dengine/img/Wood_027_normal.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/img/normalMap.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/_3dengine/img/diffuseMap.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/img/diffuseMap.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/_3dengine/SmartGroup.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,14 +32,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "nodejs_package_manager_path": "npm"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\chris\OneDrive - USN\22H-OBJ2000\3dengine\src\main\resources\img" />
@@ -65,7 +61,8 @@
       <workItem from="1679396192865" duration="15732000" />
       <workItem from="1679504598970" duration="315000" />
       <workItem from="1679505182860" duration="1714000" />
-      <workItem from="1679555175226" duration="2402000" />
+      <workItem from="1679555175226" duration="2651000" />
+      <workItem from="1679561105646" duration="2330000" />
     </task>
     <task id="LOCAL−00001" summary="Made a 3d rendered box">
       <created>1679411747317</created>
@@ -115,7 +112,43 @@
       <option name="presentableId" value="LOCAL−00008" />
       <updated>1679422965342</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL−00009" summary="added texture to 3DShape">
+      <created>1679560250506</created>
+      <option name="number" value="LOCAL−00009" />
+      <option name="presentableId" value="LOCAL−00009" />
+      <updated>1679560250506</updated>
+    </task>
+    <task id="LOCAL−00010" summary="removed prepereBox">
+      <created>1679560267264</created>
+      <option name="number" value="LOCAL−00010" />
+      <option name="presentableId" value="LOCAL−00010" />
+      <updated>1679560267264</updated>
+    </task>
+    <task id="LOCAL−00011" summary="Added class for prepereShapes">
+      <created>1679560283836</created>
+      <option name="number" value="LOCAL−00011" />
+      <option name="presentableId" value="LOCAL−00011" />
+      <updated>1679560283836</updated>
+    </task>
+    <task id="LOCAL−00012" summary="update in imports">
+      <created>1679560292154</created>
+      <option name="number" value="LOCAL−00012" />
+      <option name="presentableId" value="LOCAL−00012" />
+      <updated>1679560292154</updated>
+    </task>
+    <task id="LOCAL−00013" summary="created a material method for all shapes">
+      <created>1679561974149</created>
+      <option name="number" value="LOCAL−00013" />
+      <option name="presentableId" value="LOCAL−00013" />
+      <updated>1679561974149</updated>
+    </task>
+    <task id="LOCAL−00014" summary="added camera movement">
+      <created>1679563447864</created>
+      <option name="number" value="LOCAL−00014" />
+      <option name="presentableId" value="LOCAL−00014" />
+      <updated>1679563447864</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -140,6 +173,12 @@
     <MESSAGE value="Fixed rotating function" />
     <MESSAGE value="xml" />
     <MESSAGE value="Colored material" />
-    <option name="LAST_COMMIT_MESSAGE" value="Colored material" />
+    <MESSAGE value="added texture to 3DShape" />
+    <MESSAGE value="removed prepereBox" />
+    <MESSAGE value="Added class for prepereShapes" />
+    <MESSAGE value="update in imports" />
+    <MESSAGE value="created a material method for all shapes" />
+    <MESSAGE value="added camera movement" />
+    <option name="LAST_COMMIT_MESSAGE" value="added camera movement" />
   </component>
 </project>
