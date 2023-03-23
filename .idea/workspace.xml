@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4ee1b182-d144-4fc4-a005-cca24de590c1" name="Changes" comment="added camera movement">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/_3dengine/SmartGroup.java" beforeDir="false" />
+    <list default="true" id="4ee1b182-d144-4fc4-a005-cca24de590c1" name="Changes" comment="added imports">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/_3dengine/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/_3dengine/HelloApplication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +61,7 @@
       <workItem from="1679504598970" duration="315000" />
       <workItem from="1679505182860" duration="1714000" />
       <workItem from="1679555175226" duration="2651000" />
-      <workItem from="1679561105646" duration="2330000" />
+      <workItem from="1679561105646" duration="2402000" />
     </task>
     <task id="LOCAL−00001" summary="Made a 3d rendered box">
       <created>1679411747317</created>
@@ -148,7 +147,19 @@
       <option name="presentableId" value="LOCAL−00014" />
       <updated>1679563447864</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL−00015" summary="removed SmartGroup.java">
+      <created>1679563465197</created>
+      <option name="number" value="LOCAL−00015" />
+      <option name="presentableId" value="LOCAL−00015" />
+      <updated>1679563465197</updated>
+    </task>
+    <task id="LOCAL−00016" summary="added imports">
+      <created>1679563473858</created>
+      <option name="number" value="LOCAL−00016" />
+      <option name="presentableId" value="LOCAL−00016" />
+      <updated>1679563473858</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -179,6 +190,8 @@
     <MESSAGE value="update in imports" />
     <MESSAGE value="created a material method for all shapes" />
     <MESSAGE value="added camera movement" />
-    <option name="LAST_COMMIT_MESSAGE" value="added camera movement" />
+    <MESSAGE value="removed SmartGroup.java" />
+    <MESSAGE value="added imports" />
+    <option name="LAST_COMMIT_MESSAGE" value="added imports" />
   </component>
 </project>
