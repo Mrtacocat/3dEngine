@@ -1,12 +1,11 @@
 # JavaFX 3DEngine
 
+## Move object with mouse
+## Camera keybinds:
+- W: move forward
+- S: move backward
+- A: move left
+- D: move right
 
-Keybinds:
-- W: Zoom in
-- S: Zoom out
-- Q: Rotate X_AXIS +
-- E: Rotate X_AXIS -
-- Z: Rotate Y_AXIS +
-- C: Rotate Y_AXIS -
+<img width="1052" alt="image" src="https://user-images.githubusercontent.com/33607859/227162523-22609432-c8d6-4b06-b126-5e12900f0827.png">
 
-<img width="1052" alt="image" src="https://user-images.githubusercontent.com/33607859/226706452-f4bc1b95-050f-4ffd-9624-1759c7476d14.png">
