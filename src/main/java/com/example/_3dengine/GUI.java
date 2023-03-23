@@ -4,19 +4,13 @@ import javafx.application.Application;
 import javafx.beans.property.DoubleProperty;
 import javafx.beans.property.SimpleDoubleProperty;
 import javafx.scene.*;
-import javafx.scene.image.Image;
 import javafx.scene.input.KeyEvent;
 import javafx.scene.paint.Color;
-import javafx.scene.paint.PhongMaterial;
 import javafx.scene.transform.Rotate;
-import javafx.scene.transform.Transform;
 import javafx.scene.transform.Translate;
 import javafx.stage.Stage;
-import javafx.scene.shape.*;
 
-import java.util.Objects;
-
-public class HelloApplication extends Application {
+public class GUI extends Application {
 
     private static final int WIDTH = 1400;
     private static final int HEIGHT = 800;
