@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4ee1b182-d144-4fc4-a005-cca24de590c1" name="Changes" comment="added imports">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/_3dengine/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/_3dengine/HelloApplication.java" afterDir="false" />
+    <list default="true" id="4ee1b182-d144-4fc4-a005-cca24de590c1" name="Changes" comment="imports">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/_3dengine/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/_3dengine/GUI.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +63,7 @@
       <workItem from="1679504598970" duration="315000" />
       <workItem from="1679505182860" duration="1714000" />
       <workItem from="1679555175226" duration="2651000" />
-      <workItem from="1679561105646" duration="2402000" />
+      <workItem from="1679561105646" duration="3150000" />
     </task>
     <task id="LOCAL−00001" summary="Made a 3d rendered box">
       <created>1679411747317</created>
@@ -159,7 +161,19 @@
       <option name="presentableId" value="LOCAL−00016" />
       <updated>1679563473858</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL−00017" summary="removed useless keybinds">
+      <created>1679563550626</created>
+      <option name="number" value="LOCAL−00017" />
+      <option name="presentableId" value="LOCAL−00017" />
+      <updated>1679563550626</updated>
+    </task>
+    <task id="LOCAL−00018" summary="imports">
+      <created>1679563925567</created>
+      <option name="number" value="LOCAL−00018" />
+      <option name="presentableId" value="LOCAL−00018" />
+      <updated>1679563925567</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -192,6 +206,8 @@
     <MESSAGE value="added camera movement" />
     <MESSAGE value="removed SmartGroup.java" />
     <MESSAGE value="added imports" />
-    <option name="LAST_COMMIT_MESSAGE" value="added imports" />
+    <MESSAGE value="removed useless keybinds" />
+    <MESSAGE value="imports" />
+    <option name="LAST_COMMIT_MESSAGE" value="imports" />
   </component>
 </project>
