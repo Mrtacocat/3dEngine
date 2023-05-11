@@ -16,6 +16,8 @@ public class GUI extends Application {
     @Override
     public void start(Stage stage) throws Exception {
 
+
+
         Shape3DClass box = new Shape3DClass();
         Shape3DClass sphere = new Shape3DClass();
 
@@ -55,6 +57,7 @@ public class GUI extends Application {
                 case CONTROL -> group.setTranslateY(group.getTranslateY() - 20);
             }
         });
+
 
         stage.setResizable(false);
         stage.setTitle("3D Engine");
